@@ -1,0 +1,8 @@
+# Dependency directory
+client/node_modules
+
+# dist folder
+client/dist
+
+# Go dependencies
+vendor

@@ -1,0 +1,14 @@
+runtime: go
+api_version: go1
+
+skip_files:
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+- node_modules
+
+handlers:
+  - url: /(.*)
+    script: _go_app
